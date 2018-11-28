@@ -4,7 +4,7 @@ import io.micronaut.test.annotation.MicronautTest
 import spock.lang.Specification
 
 @MicronautTest
-class SpockSpeck extends Specification {
+class SpockSpec extends Specification {
     def 'it should compile'() {
         expect:
         true
